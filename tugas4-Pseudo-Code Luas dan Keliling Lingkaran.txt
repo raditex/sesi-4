@@ -1,0 +1,48 @@
+Pseudo-Code / Kode Semu
+Algoritma_Program_Mencari Luas Lingkaran
+
+// kamus data 
+L, r : number
+phi : number (konstanta)
+
+// inisialisasi / input 
+r <-- baca nilai dari user
+
+// proses 
+L <-- phi x r x r
+
+// output 
+print "Luas lingkaran = " + L
+
+
+
+Pseudo-Code / Kode Semu
+Algoritma_Program_Mencari Keliling Lingkaran
+
+// kamus data 
+K, r : number
+phi : number (konstanta)
+
+// inisialisasi / input 
+r <-- baca nilai dari user
+
+// proses 
+K <-- 2 x phi x r
+
+// output 
+print "Keliling lingkaran = " + K
+
+ATAU
+
+// kamus data 
+K, d : number
+phi : number (konstanta)
+
+// inisialisasi / input 
+d <-- baca nilai dari user
+
+// proses 
+K <-- phi x d
+
+// output 
+print "Keliling lingkaran = " + K
