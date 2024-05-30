@@ -1,0 +1,35 @@
+Permasalahan:
+
+Diberikan nama dan nilai mahasiswa, jika nilai tersebut lebih besar atau sama dengan 60 maka mahasiswa tersenut dinyatakan lulus, jika nilai lebih kecil dari  60 maka dinyatakan tidak lulus.
+
+Deskriptif / Naratif: 
+1. Mulai
+2. Sistem meminta nama dan nilai mahasiswa 
+3. Sistem melakukan kalkulasi kelulusan; jika nilai >= 60, maka dinyatakan "Lulus"; Jika nilai < 60, maka dinyatakan "Tidak Lulus" 
+4. Sistem menampilkan nama, nilai, dan status kelulusan 
+5. Selesai 
+
+
+Flow-Chart:
+Lihat ke draw.io 
+
+Pseudo-Code: 
+// kamus data 
+nama, status: string 
+nilai: number
+
+// input 
+nama <-- baca nama dari user
+nilai <-- baca nilai dari user
+
+// proses 
+IF nilai >= 60 THEN 
+    status <-- "Lulus"
+ELSE 
+    status <-- "Tidak Lulus"
+END IF
+
+// output
+print "Nama: " + nama
+print "Nilai: " + nilai
+print "Status: " + status

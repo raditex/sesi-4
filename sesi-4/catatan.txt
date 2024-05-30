@@ -1,0 +1,30 @@
+
+
+Algoritma ==> langkah-langkah yang dilakukan untuk menyelesaikan suatu permasalahan
+
+keyword: 
+- langkah
+- sistematis, terstruktur
+- logis
+- menyelesaikan masalah
+- memiliki input, proses, output
+
+
+
+Pengguna                    | Sistem / Device
+1. Menekan tombol power
+                              2. Melakukan proses booting
+                              3. Menampilkan halaman login
+4. Memilih akun serta 
+memasukkan username dan
+ password
+                              5. Melakukan validasi apakah username dan password-nya sesuai;
+                              6. Jika sesuai, maka akan diarahkan ke halaman desktop; jika tidak sesuai, maka akan ditampilkan pesan "username / password salah"
+
+
+Notasi Algoritma
+Algoritma dapat dibuat dengan cara:
+1. Deskriptif / Naratif         ==> langkah-langkah berupa kalimat deskripsi / narasi
+2. Flow-Chart Diagram           ==> diagram / gambar
+3. Pseudo-Code / Kode Semu      ==> kode semu (bukan kode program sebenarnya)
+

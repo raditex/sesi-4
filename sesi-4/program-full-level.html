@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Full Level</title>
+</head>
+<body>
+    
+    <script>
+        /*
+            Algoritma_Program_Full_Level 
+
+            // kamus data
+            full_level: string
+
+            // input 
+            full_level <-- 0
+
+            // proses 
+            WHILE "full_level" < 5 
+                full_level = full_level + 1
+            END WHILE
+
+            // output 
+            print "I'm full.."
+
+        */
+
+        // deklarasi dan inisialisasi nilai ke dalam variabel
+        let full_level = 0; // assignment
+
+        while (full_level < 1000) { // apakah full_level < 5 ?
+            // full_level = full_level + 1; // sama dengan ==> full_level++;
+
+            console.log(full_level);
+
+            full_level++; // full_level = full_level + 1
+        }
+
+        console.log("I'm full!");
+
+        /*
+            full_level = 0
+
+            perulangan pertama: 
+                apakah full_level < 5 ? ==> apakah 0 < 5 ? TRUE 
+                cetak full_level    ==> cetak 0 ke console
+                full_level++    ==> full_level = 0 + 1  ==> 1
+                full_level = 1
+            
+            perulangan kedua: 
+                apakah full_level < 5 ? ==> apakah 1 < 5 ? TRUE     
+                cetak full_level    ==> cetak 1 ke console
+                full_level++    ==> full_level = 1 + 1  ==> 2
+                full_level = 2
+
+            perulangan ketiga: 
+                apakah full_level < 5 ? ==> apakah 2 < 5 ? TRUE     
+                cetak full_level    ==> cetak 2 ke console
+                full_level++    ==> full_level = 2 + 1  ==> 3
+                full_level = 3
+
+            perulangan keempat: 
+                apakah full_level < 5 ? ==> apakah 3 < 5 ? TRUE     
+                cetak full_level    ==> cetak 3 ke console
+                full_level++    ==> full_level = 3 + 1  ==> 4
+                full_level = 4
+
+            perulangan kelima: 
+                apakah full_level < 5 ? ==> apakah 4 < 5 ? TRUE     
+                cetak full_level    ==> cetak 4 ke console
+                full_level++    ==> full_level = 4 + 1  ==> 5
+                full_level = 5
+
+            perulangan keenam: 
+                apakah full_level < 5 ? ==> apakah 5 < 5 ? FALSE
+
+            karena kondisinya FALSE, maka abaikan blok while-nya dan keluar dari perulangan     
+                
+
+
+        */
+
+    </script>
+</body>
+</html>

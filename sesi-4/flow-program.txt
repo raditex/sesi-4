@@ -1,0 +1,20 @@
+Flow Program / Bentuk Dasar Algoritma / Struktur Program: 
+
+1. Sequential   ==> berurutan, dari atas ke bawah, baris per baris 
+2. Conditional / Percabangan  ==> program pada saat berjalan akan dilakukan pengecekan terhadap kondisi-kondisi tertentu, jika memenuhi kondisi tersebut, maka akan mengeksekusi kode di blok tersebut
+3. Looping / Perulangan      ==> program pada saat berjalan akan dilakukan pengecekan terhadap kondisi-kondisi tertentu, jika memenuhi kondisi tersebut, maka akan dilakukan pengulangan dalam jumlah yang sudah ditetapkan
+
+Jenis Conditional: 
+1. If .. Else 
+    - if 
+    - if.. else..
+    - if.. else if.. else 
+    - if.. else if.. else if.. .. else 
+2. Switch .. Case ..
+3. Ternary Operator 
+
+Jenis Looping: 
+1. For 
+2. While.. Do.. 
+3. Do.. While..
+

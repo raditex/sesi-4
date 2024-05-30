@@ -1,0 +1,37 @@
+
+Permasalahan: 
+
+Diberikan 2 buah ember A dan B, ember A berisi larutan berwarna merah, ember B berisi larutan berwarna biru. Tukarkan isi kedua ember itu sedemikian sehingga ember A berisi larutan warna biru dan ember B berisi larutan berwarna merah.
+
+
+A. Deskriptif / Naratif
+1. Mulai
+2. Sediakan ember C sebagai wadah penyimpanan sementara 
+3. Tuangkan isi ember A ke C 
+4. Tuangkan isi ember B ke A 
+5. Tuangkan isi ember C ke B 
+6. Selesai 
+
+B. Diagram Alir / Flow-Chart Diagram 
+(lihat ke draw.io)
+
+C. Pseudo-Code / Kode Semu
+Algoritma_Program_Tukar_Isi_Ember
+
+// kamus data 
+A, B, C : string
+
+// inisialisasi / input 
+A <-- "merah"
+B <-- "biru"
+C <-- null
+
+// proses 
+C <-- A
+A <-- B 
+B <-- C
+
+// output 
+print "A = " + A
+print "B = " + B
+
